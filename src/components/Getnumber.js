@@ -51,7 +51,7 @@ function Getnumber(props) {
             </div>
             <div>
                 <button style={validate(number)===true?activeButton:btn} onClick={()=>validate(num)===true?props.setItem(number):undefined}>
-                    Wow! Get my Paytm Gift Card `{`>`}`
+                    Wow! Get my Paytm Gift Card {">"}
                     
                 </button>
             </div>
